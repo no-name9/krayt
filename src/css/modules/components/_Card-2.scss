@@ -1,0 +1,27 @@
+.Card-2 {
+  background: var(--white-1);
+  border: 1px solid var(--gray-3);
+  padding-block-end: 25px;
+  h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: var(--gray-1);
+  }
+  h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--gray-7);
+
+    text-decoration-line: line-through;
+  }
+  p {
+    @extend .text-2;
+    line-height: 160%;
+  }
+}

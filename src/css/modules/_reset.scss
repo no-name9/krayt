@@ -1,0 +1,69 @@
+/*=================RESET=================*/
+:where(body) {
+  line-height: 1.5;
+}
+
+/*Unstyle links*/
+:where(a) {
+  all: unset;
+  cursor: pointer;
+}
+
+/*Unstyle ol & ul*/
+:where(ol, ul) {
+  all: unset;
+}
+
+:where(span) {
+  display: inline-block;
+}
+
+:where(input) {
+  border-style: solid;
+  outline: none;
+}
+
+/*Hide input[type='number'] arrows*/
+input[type='nubmer']::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+/*Unset default button styles*/
+:where(button) {
+  all: unset;
+  appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  box-sizing: border-box;
+}
+
+:where(img) {
+  width: 100%;
+}
+
+:where(h5) {
+  display: inline-block;
+}
+
+:where(hr) {
+  height: 1px;
+}
+:where(mark, u) {
+  all: unset;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::before,
+::after {
+  position: absolute;
+}
+
+/*===============RESET===============*/

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "ES6",
+    "allowJs": false,
+    "outDir": "./src/js",
+    "typeRoots": ["./src/js/typings"]
+  },
+  "exclude": ["node_modules", "js/**/*.js"]
+  // "include": ["./js/ts/*.ts"]
+}

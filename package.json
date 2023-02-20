@@ -1,0 +1,19 @@
+{
+  "name": "gulptest",
+  "version": "1.0.0",
+  "description": "learn gulp",
+  "author": "me",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.58.1",
+    "typescript": "^4.9.5"
+  }
+}

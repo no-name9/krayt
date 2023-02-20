@@ -1,0 +1,121 @@
+[class^='btn'] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 200ms;
+}
+
+%btn-big {
+  height: 56px;
+  min-width: 200px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  @extend %btn-big;
+
+  background-color: var(--gray-1);
+  color: var(--white-1);
+
+  &:hover {
+    background-color: var(--gray-2);
+  }
+  &:active {
+    background-color: var(--black-1);
+  }
+}
+
+.btn-2 {
+  @extend %btn-big;
+
+  background-color: var(--white-1);
+  color: var(--gray-1);
+  border: 1px solid var(--gray-1);
+  &:hover {
+    background-color: var(--gray-1);
+    color: var(--white-1);
+  }
+  &:active {
+    background-color: var(--black-1);
+    color: var(--white-1);
+  }
+}
+
+%btn-small {
+  height: 40px;
+  min-width: 110px;
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+
+  border-radius: 21px;
+}
+
+.btn-3 {
+  @extend %btn-small;
+
+  background-color: var(--gray-3);
+  color: var(--gray-1);
+
+  &:hover {
+    background-color: var(--gray-4);
+  }
+  &:active {
+    background-color: var(--gray-1);
+    color: var(--white-1);
+  }
+}
+
+.text-1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  color: var(--gray-1);
+
+  text-transform: uppercase;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.text-1-1 {
+  @extend .text-1;
+  font-size: 14px;
+}
+
+.text-2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--gray-1);
+}
+
+.text-3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+
+  color: var(--gray-1);
+  &:hover {
+    color: var(--gray-5);
+  }
+}
+
+.user {
+  @extend .text-2;
+  & [disabled] {
+    opacity: 0.5;
+  }
+}

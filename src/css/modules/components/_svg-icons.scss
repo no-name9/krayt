@@ -1,0 +1,25 @@
+.icon-heart {
+  color: var(--gray-6);
+  &:hover {
+    color: var(--gray-5);
+  }
+  &.--active {
+    color: var(--red-1);
+  }
+}
+
+.icon-eye {
+  color: var(--gray-6);
+  &:hover {
+    color: var(--gray-5);
+  }
+}
+
+.icon-bag {
+  &:hover {
+    background-color: var(--white-2);
+  }
+  &:visited {
+    background-color: var(--white-3);
+  }
+}

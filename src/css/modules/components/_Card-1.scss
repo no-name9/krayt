@@ -1,0 +1,29 @@
+.Card-1 {
+  width: 200px;
+  height: 259px;
+  background-color: var(--white-2);
+  color: var(--gray-1);
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+
+  text-align: center;
+
+  padding-block-start: 37px;
+  padding-block-end: 17px;
+  padding-inline: 26px;
+  box-sizing: border-box;
+  gap: 26px;
+
+  .image-box {
+    height: 147px;
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    height: 32px;
+  }
+}
