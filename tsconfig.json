@@ -6,6 +6,6 @@
     "outDir": "./src/js",
     "typeRoots": ["./src/js/typings"]
   },
-  "exclude": ["node_modules", "js/**/*.js"]
+  "exclude": ["node_modules", "js/**/*.js", "gulpfile.js"]
   // "include": ["./js/ts/*.ts"]
 }
