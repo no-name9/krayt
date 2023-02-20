@@ -19,16 +19,18 @@ function html() {
 }
 
 function css() {
-  return src('src/css/*.css')
-    // .pipe(
-    //   purgeCss({
-    //     content: ['src/*.html'],
-    //     safelist: { greedy: [/:where$/] },
-    //   })
-    // )
-    .pipe(autoprefixer({ cascade: false }))
-    .pipe(cleanCss())
-    .pipe(dest('dist/css/'));
+  return (
+    src('src/css/*.css')
+      // .pipe(
+      //   purgeCss({
+      //     content: ['src/*.html'],
+      //     safelist: { greedy: [/:where$/] },
+      //   })
+      // )
+      .pipe(autoprefixer({ cascade: false }))
+      .pipe(cleanCss())
+      .pipe(dest('dist/css/'))
+  );
 }
 
 function js() {
